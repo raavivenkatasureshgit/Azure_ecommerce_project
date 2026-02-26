@@ -1,0 +1,21 @@
+{
+	"name": "ls_mysql_ecommerce",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "MySql",
+		"typeProperties": {
+			"server": "localhost",
+			"port": 3306,
+			"database": "ecommerce",
+			"username": "root",
+			"sslMode": 0,
+			"driverVersion": "v2",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIwNzlkZWY5ZC1hNzZiLTQ2YmEtYWRhMS1kNGJlZjUyM2I5ODYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "shir-ecommerce-dev",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

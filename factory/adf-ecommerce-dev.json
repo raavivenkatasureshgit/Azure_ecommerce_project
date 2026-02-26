@@ -1,0 +1,9 @@
+{
+	"name": "adf-ecommerce-dev",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0dff380c-751f-4ff1-8675-f210ea234e67",
+		"tenantId": "ff889bb5-36ea-4506-97e0-bcd37dfae050"
+	}
+}
