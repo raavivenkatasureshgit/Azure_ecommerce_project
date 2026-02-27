@@ -1,0 +1,15 @@
+{
+	"name": "ds_mysql_kiva_loans",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_mysql_ecommerce",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MySqlTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "`kiva_loans`"
+		}
+	}
+}
